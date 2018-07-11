@@ -18,23 +18,24 @@
     height: 40px;
     background-image: url(../../images/share/logo.png);
 }
+
 .fixed-top .nav{
+    width: 40%;
+    margin: 0 auto;
     height: 64px;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
-    -ms-transform:translate(-50%);    /* IE 9 */
-    -moz-transform:translate(-50%);    /* Firefox */
-    -webkit-transform:translate(-50%); /* Safari 和 Chrome */
-    -o-transform:translate(-50%); /* Opera */
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width: 600px) {  
+    .fixed-top .nav{
+        width: 56%;
+    }
 }
 .fixed-top .nav a{
     display: block;
-    float: left;
     color: #665C5C;
-    /*font: 400 16px/64px "Microsoft YaHei","Helvetica Neue", Helvetica, Tahoma, Arial, Sans-serif !important;*/
     font: 400 16px/64px "Microsoft YaHei" !important;
-    margin-right: 58px
+    margin-right: 0
 }
 .fixed-top .nav a.active{
     color: #332828;
