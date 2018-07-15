@@ -6,6 +6,35 @@
     width: 100%;
     background:#fff;
 }
+.fixed-top .right-area{
+    position: absolute;
+    top: 14px;
+	right: 20px;
+	height: 36px;
+	cursor: pointer;
+}
+.fixed-top .right-area .button{
+	float: right;
+	line-height: 36px;
+	text-align: center;
+	color: #FFFFFF;
+	width: 100px;
+	height: 100%;
+	background-color: #D12324;
+	margin-right: 2px;
+}
+.fixed-top .right-area .qq{
+	float: right;
+	padding: 8px;
+	width: 20px;
+	height: 20px;
+	background-color: #332929;
+}
+.fixed-top .right-area .qq .icon{
+	width: 20px;
+	height: 20px;
+    background-image: url(../../images/module/home/qqicon.png);
+}
 .fixed-top .logo{
     position: absolute;
     top: 0;
@@ -150,6 +179,14 @@
 	width: 744px;
 	height: 407px;
     background-image: url(../../images/module/home/imac.png);
+}
+.neck-area .shiting{
+	cursor: pointer;
+	bottom: 28%;
+	width: 101px;
+	height: 32px;
+	left: 51%;
+    background-image: url(../../images/module/home/shiting.png);
 }
 .neck-area .icirclebig{
 	top:84px;
